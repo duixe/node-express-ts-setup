@@ -1,7 +1,12 @@
 import dotenv from 'dotenv-safe';
-import printGroot from '@src/controller/duixe';
+import app from '@src/app';
 
-dotenv.config();
+dotenv.config({
+  allowEmptyValues: true,
+});
 
-// console.log(printGroot());
-// console.log(process.env.MY_NAME);
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  // console.log(`App running on port ${port} ...`);
+  // console.log(process.env.DATABASE_LOCAL);
+});
