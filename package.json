@@ -14,8 +14,11 @@
   "author": "Emmanuel Sunday Akomaning",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "@types/dotenv-safe": "^8.1.2",
+    "@types/express": "^4.17.13",
     "@types/jest": "^26.0.24",
+    "@types/mongoose": "^5.11.97",
     "@types/node": "^16.4.1",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
@@ -34,6 +37,9 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "dotenv-safe": "^8.2.0"
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
   }
 }
