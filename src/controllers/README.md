@@ -1,6 +1,6 @@
 # Controllers
 
-**This directory is required 🤨, Since this project is based of an MVC architecture**
+**This directory is required 🤨, Since this project is based on an MVC architecture**
 
 The controller contains both the routes - which can be found in the setRoutes() method, and the controllers (private methods) themselves.
 
